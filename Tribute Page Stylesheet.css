@@ -1,0 +1,35 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thin-border {
+  border-color: hsla(3, 40%, 60%, 0.5);
+  border-width: 5px;
+  border-style: solid;
+}
+body {
+  background-color: hsla(30, 30%, 60%, 0.5);
+}
+h1 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 3px 2px hsla(3, 40%, 60%, 0.5);
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+figcaption {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Dancing Script', cursive;
+}
+p {
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'Dancing Script', cursive;
+}
